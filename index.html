@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+  <link rel='stylesheet' type='text/css' href='css/style.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+  
+
+  </head>
+  <body>
+
+    <div id='app' class='center container'>
+
+        <div id='headers'>
+          <h1 id='title'>Play the Guessing Game!</h1>
+          <h3 id='subtitle'>Guess a number between 1-100!</h3>
+        </div>
+
+      <div id='main'>
+        <div id='input-parent'>
+          <input id='player-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+          <button id='submit' class='btn btn-success'>Go!</button>
+        </div>
+
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+        <div id="menu-btns">
+          <button id='reset' class='btn btn-warning'>Reset</button>
+          <button id='hint' class='btn btn-info'>Hint</button>
+        </div>
+      </div>
+    </div>
+
+    <div id='footer' class='center'>
+      <div class= 'row'>
+        <div class='col-xs-6 col-md-4'>
+          <img src='img/fullstack-logo.png'></img>
+        </div>
+
+        <div class='col-xs-6 col-md-4'>
+          <h4>Project by Annalee Switek</h4>
+        </div>
+
+        <div class='col-xs-6 col-md-4'>
+          <img src='img/grace-hopper-logo.png'></img>
+        </div>
+
+<!--   
+<div class="row">
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div> 
+-->
+
+
+      </div>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/GuessingGame.js"></script>
+  
+  </body>
+
+
+</html>
